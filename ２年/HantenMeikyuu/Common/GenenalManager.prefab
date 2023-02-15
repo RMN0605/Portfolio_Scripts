@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7883595726206031046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7883595726206030907}
+  - component: {fileID: 7883595726206030906}
+  - component: {fileID: 7883595726206030904}
+  - component: {fileID: 7883595726206030905}
+  m_Layer: 0
+  m_Name: GenenalManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7883595726206030907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883595726206031046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7883595726206030906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883595726206031046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb274e7a482703b44a8cf1ce6dd4a8e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hantenNum: 02000000020000000300000002000000010000000200000005000000020000000100000005000000010000000400000005000000
+--- !u!114 &7883595726206030904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883595726206031046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d70758b0ae0f7e4c901d3ecd18e9941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgm: 0
+  bgmClips:
+  - Name: 0
+    Volume: 0.5
+    BgmData: {fileID: 8300000, guid: c1ea88ba67419ec469c8256088a5a9bb, type: 3}
+  - Name: 1
+    Volume: 0.5
+    BgmData: {fileID: 8300000, guid: 65a4ca826bd376640afd3a3641c8905e, type: 3}
+  - Name: 2
+    Volume: 0.5
+    BgmData: {fileID: 8300000, guid: 9a80ce4be07527041b9f5588fea29277, type: 3}
+  seClips:
+  - Name: 0
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: b5620a46d21e40e40be220e1770f1176, type: 3}
+  - Name: 1
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 4a95161c372e29a40b2def51a7ca1ba9, type: 3}
+  - Name: 2
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 0d9c1d61021d0754fbff3e48d4efa52e, type: 3}
+  - Name: 3
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: ecf702781e404b64999727c07746d5bf, type: 3}
+  - Name: 4
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: dda5b5a2f6c9eda49adb3846b5318fd6, type: 3}
+  - Name: 5
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 8164fba606aaf2d4d931295fe7ed68c0, type: 3}
+  - Name: 6
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: f2a8651c5eab74e41bf5bb6430a155dc, type: 3}
+  - Name: 8
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: d466a727b62e8ef418054a1feae95304, type: 3}
+  - Name: 9
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: a7e84a8badcdb5b40b4cf0b89af520ec, type: 3}
+  - Name: 10
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 3287dac64b8b8274d9c0a45ef62f5988, type: 3}
+  - Name: 11
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 40b1c19a9f4da164c8bc55ce5cb5d0b0, type: 3}
+  - Name: 12
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: ee8bb71046992ef45b6c93bce5dd1eb5, type: 3}
+  - Name: 13
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: fcf9a387552431043a899f0ac51ef3ff, type: 3}
+  - Name: 14
+    Volume: 0.5
+    SeData: {fileID: 8300000, guid: 6eaee735b22c1ea49b5701c5e3ea18d2, type: 3}
+--- !u!114 &7883595726206030905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7883595726206031046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1106c28b846bcbd48bef9c1729c8188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 0}
+  stageSetting: {fileID: 0}
+  mapType: {fileID: 0}
+  selectStageNum: 0
+  isPlay: 0
